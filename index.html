@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="icon/css/all.css">
+    <script src="dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="dist/css/custom-style.css">
+</head>
+<body>
+    <!-- Top nav start -->
+
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-info p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <i class="fa fa-search"></i> STARK Digital Pvt.lt</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item ps-3">
+                <a class="nav-link active"  href="home.html"> <i class="fa fa-home"></i> Home</a>
+              </li>
+
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="service.html"> <i class="fa fa-tools"></i> Our services</a>
+              </li>
+
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="product.html"> <i class="fa fa-suitcase"></i> Our Products</a>
+              </li>
+
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="customer.html"> <i class="fa fa-users"></i> Premium Customer</a>
+              </li>
+
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#register"> <i class="fa fa-user-plus"></i>Create Account</a>
+              </li>
+
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#mylogin"> 
+                  <i class="fa fa-lock"></i> Login
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Top nav end -->
+
+      <!-- Banner satrt-->
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="1.jpg" height="600px" width="100%">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Example headline.</h1>
+                <p>Some representative placeholder content for the first slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="3.jpg" height="600px" width="100%">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="5.jpg" height="600px" width="100%">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>One more for good measure.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Banner end-->
+
+      <section class="bg-light p-5 background-service">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="text-info pb-3">Our Most Demanding services</h1>
+            </div>
+          </div>
+          <div class="row mb-4 text-center">
+              <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                  <div class="p-2">
+                    <i class="fa fa-book fa-2x purple"></i>
+                    <h6 class="service-title">Education</h6>
+                  </div>
+              </div>
+              <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                <div class="p-2">
+                  <i class="fa fa-desktop fa-2x orange"></i>
+                  <h6 class="service-title">Software</h6>
+                </div>
+              </div>
+              <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                <div class="p-2">
+                  <i class="fa fa-suitcase fa-2x text-info"></i>
+                  <h6 class="service-title">B-2-B</h6>
+                </div>
+              </div>
+              <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                <div class="p-2">
+                  <i class="fa fa-handshake fa-2x text-success"></i>
+                  <h6 class="service-title">Employment</h6>
+                </div>
+              </div>
+              <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                <div class="p-2">
+                  <i class="fa fa-tools fa-2x orangered"></i>
+                  <h6 class="service-title">Home Service</h6>
+                </div>
+              </div>
+              <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
+                <div class="p-2">
+                  <i class="fa fa-headset fa-2x text-primary"></i>
+                  <h6 class="service-title">Marketing</h6>
+                </div>
+              </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="p-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 ">
+              <h2 class="text-info text-center pb-4">Register Your Business</h2>
+              <div class="card border-0 shadow-lg">
+                <div class="card-header bg-primary text-center">Enter Details</div>
+
+                <div class="card-body">
+                  <div class="row mb-3">
+                    <div class="col-lg-4 mb-4">
+                      <label for="">Enter Business Name</label>
+                      <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+                      <label for="">Business Mobile No. </label>
+                      <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+                      <label for="">Contact Person</label>
+                      <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+                      <label for="">City Name</label>
+                      <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+                      <label for="">Email</label>
+                      <input type="Email" class="form-control">
+                    </div>
+
+                    
+                    <div class="col-lg-4 mb-4">
+                      <label for="">Password</label>
+                      <input type="password" class="form-control">
+                    </div>
+
+                  </div> <!-- row end -->
+                </div> <!-- card body end here-->
+
+                <div class="card-footer text-center">
+                  <button class="btn btn-outline-danger ">Register</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-light p-5">
+        <div class="container">
+
+          <div class="row text-center">
+
+            <div class="col-lg-4">
+              <div class="p-4 rounded border bg-white">
+                
+                <h4 class="text-primary">
+                  <i class="fa fa-headset text-primary"></i> Book Meeting
+                </h4>
+                <h4>+91 9874563201</h4>
+                <h4>+91 7896541203</h4>
+              </div>
+
+            </div>
+
+            <div class="col-lg-4">
+              <div class="p-4 rounded border bg-white">
+                
+                <h4 class="text-primary">
+                  <i class="fa fa-map-marker text-primary"></i> Office Address
+                </h4>
+                <p>help@yourwebsite.com</p>
+                <p>Marthahalli,Bangalore </p>
+              </div>
+
+            </div>
+
+            <div class="col-lg-4">
+              <div class="p-4 rounded border bg-white">
+                
+                <h4 class="text-primary">
+                  <i class="fa fa-comment text-primary"></i> Chat Support
+                </h4>
+                <p>Technical Support</p>
+                <p>Sales Support</p>
+              </div>
+
+            </div>
+
+          </div> <!-- row end here-->
+
+         
+        </div> <!-- container end here-->
+      </section>
+
+      <section class="p-4">
+        <div class="container">
+            <div class="row mb-4">
+              <div class="col-lg-12 text-center">
+                <h2 class="text-info">Our Products</h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="p-4 rounded shadow-lg">
+                    <i class="fa fa-envelope fa-3x text-warning fa-pull-left"></i>
+                    <h3>Bulk E-mail Tool</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quas.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, quam.
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe iusto est eligendi?
+                      <a href="" class="m-2">continue Reading...</a>
+                    </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="p-4  rounded shadow-lg">
+                    <i class="fa fa-desktop fa-3x text-warning fa-pull-left"></i>
+                    <h3>Website Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quas.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, quam.
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe iusto est eligendi?
+                      <a href="" class="m-2">continue Reading...</a>
+                    </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="p-4 rounded shadow-lg">
+                    <i class="fa fa-search fa-3x text-warning fa-pull-left"></i>
+                    <h3>Hr Management Tool</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quas.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, quam.
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe iusto est eligendi?
+                      <a href="" class="m-2">continue Reading...</a>
+                    </p>
+                </div>
+              </div>
+
+          </div>
+ 
+        </div> <!--Container End here-->
+
+      </section>
+
+    <!--footer start-->
+    <footer class="bg-success text-white p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 myfooter">
+                    <div class="footeritem">
+                        <h3>Quick Links</h3>
+                        <p>Home</p>
+                        <p>About</p>
+                        <p>Service</p>
+                    </div>
+                    <div class="footeritem">
+                        <h3>Recent Vists</h3>
+                        <p>Home</p>
+                        <p>Register</p>
+                    </div>
+                    <div class="footeritem">
+                        <h3>Help Center</h3>
+                        <p>8897456321</p>
+                    </div>
+                    <div class="footeritem">
+                        <h3>Office Address</h3>
+                        <p>#123,<br>2nd Floor,<br>Marthahalli,<br>Bangalore</p>
+                    </div>
+                    <div class="footeritem">
+                        <h3>Social Media</h3>
+                        <p> <i class="fab fa-facebook"></i> Facebook </p>
+                        <p> <i class="fab fa-twitter"></i> Twitter </p>
+                        <p> <i class="fab fa-linkedin"></i> Linkedin </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Login and register model start here now-->
+
+    <div class="modal fade" id="mylogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" 
+    data-bs-backdrop="static" data-bs-keyboard="false">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+
+          <div class="modal-header bg-info">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+
+          </div>
+
+          <div class="mb-4 input-group">
+            <label class="input-group-text"> <i class="fa fa-envelope"></i></label>
+            <input type="email" class="form-control" placeholder="Enter your Email id"/>
+          </div>
+
+          <div class="mb-4 input-group">
+              <label class="input-group-text"> <i class="fa fa-lock"></i></label>
+              <input type="password" class="form-control" placeholder="Enter Your Password">
+          </div>
+
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-outline-danger"> Login <i class="fa fa-arrow-right"></i> </button>
+          </div>
+
+        </div>
+      </div>
+    </div>  <!--login modal end here-->
+
+    <!--Register modal start here-->
+
+    <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" 
+    data-bs-backdrop="static" data-bs-keyboard="false">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header bg-success">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Account</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <div class="mb-4 input-group">
+              <label class="input-group-text"> <i class="fa fa-user"></i></label>
+              <input type="email" class="form-control" placeholder="Enter your Name"/>
+            </div>
+
+            <div class="mb-4 input-group">
+              <label class="input-group-text"> <i class="fa fa-mobile"></i></label>
+              <input type="email" class="form-control" placeholder="Enter your Mobile No."/>
+            </div>
+
+            <div class="mb-4 input-group">
+              <label class="input-group-text"> <i class="fa fa-envelope"></i></label>
+              <input type="email" class="form-control" placeholder="Enter your Email id"/>
+            </div>
+  
+            <div class="mb-4 input-group">
+                <label class="input-group-text"> <i class="fa fa-lock"></i></label>
+                <input type="password" class="form-control" placeholder="Enter Your Password">
+            </div>
+  
+          </div>
+
+         
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-outline-danger"><i class="fa fa-user-plus"></i> Register  </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
